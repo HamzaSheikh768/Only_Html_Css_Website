@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header + Navigation -->
+    <header>
+      <div class="logo">WebDev</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="dropdown">
+            <a href="#services">Services</a>
+            <ul class="dropdown-content">
+              <li><a href="#w">Web Development</a></li>
+              <li><a href="#m">Mobile App Development</a></li>
+              <li><a href="#f">Frontend Development</a></li>
+              <li><a href="#b">Backend Development</a></li>
+              <li><a href="#fd">FullStack Development</a></li>
+              <li><a href="#ud">UI/UX Design</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to WebDev Academy</h1>
+        <p>Learn Web Development with hand-on projects and expert guidance.</p>
+        <a href="#contact" class="cta-btn">Join Now</a>
+      </div>
+    </section>
+
+    <!-- About Card -->
+
+    <section id="about" class="about">
+      <h1>About Us</h1>
+      <p>
+        WebDev Academy is dedicated to providing high-quality education in web
+        development.Our mission is to empower individuals with the skills they
+        need to succeed in the tech industry.
+      </p>
+      <div class="about-cards">
+        <div class="card">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h3>Expert Instructors</h3>
+          <p>Learn from industry professionals with real-world experirnce.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Hands-on Projects</h3>
+          <p>
+            Work on real projects to build your portfolio and gain practical
+            skills.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Certification</h3>
+          <p>Get certified to Boost your career.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service section -->
+
+    <section id="services" class="services">
+      <h1>Our Services</h1>
+      <div class="service-grid">
+        <div id="w" class="service-item">
+          <img src="web.jpeg" alt="Web Development" />
+          <h3>Web Development</h3>
+          <p>Build responsive and modern websites.</p>
+        </div>
+        <div id="m" class="service-item">
+          <img src="mobile.jpeg" alt="Mobile App Development" />
+          <h3>Mobile App Development</h3>
+          <p>Build cross-platform mobile applications.</p>
+        </div>
+        <div id="f" class="service-item">
+          <img src="frontend.jpeg" alt="Frontend Development" />
+          <h3>Frontend Development</h3>
+          <p>Build responsive and interactive user interfaces.</p>
+        </div>
+        <div id="b" class="service-item">
+          <img src="backend.jpeg" alt="Backend Development" />
+          <h3>Backend Development</h3>
+          <p>Build server-side applications and APIs.</p>
+        </div>
+        <div id="fd" class="service-item">
+          <img src="fullstack.jpeg" alt="FullStack" />
+          <h3>FullStack Development</h3>
+          <p>Build complete web applications from front to back.</p>
+        </div>
+        <div id="ud" class="service-item">
+          <img src="ui.jpeg" alt="UI/UX Design" />
+          <h3>UI/UX Design</h3>
+          <p>Create user-friendly and visually appealing designs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h1>Contact Us</h1>
+      <p>Have Questions? Reach out to us!</p>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#services">Our Services</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+          <a href="#"><i class="fab fa-youtube"></i>Youtube</a>
+          <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="#"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+          <p>&copy; 2025 WebDev Academy. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
